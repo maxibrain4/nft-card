@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0d1a2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "poppins", sans-serif;
+}
+.card-container {
+  width: 25%;
+  min-width: 300px;
+  background-color: #15273f;
+  border-radius: 10px;
+}
+.content {
+  margin: 20px;
+}
+.toppix {
+  width: 100%;
+  border-radius: 10px;
+}
+.toppix:hover {
+  filter: ;
+}
+h1 {
+  color: #f2faff;
+  font-weight: 500;
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.days {
+  color: #8bacd9;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 13px 0;
+}
+.eth {
+  color: #1adfde;
+}
+.row2 {
+  display: flex;
+  border-top: 1px solid #7d9bc3;
+  padding-top: 20px;
+}
+.avatar {
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid #989a9d;
+}
+.pixname {
+  color: #8bacd9;
+}
+.pixname span {
+  color: #e0e9f9;
+}
+h1:hover,
+.pixname span:hover {
+  color: #1adfde;
+  cursor: pointer;
+}
+.ptext {
+  line-height: 1.5;
+  color: #5b7390;
+}
+.box {
+  margin-left: 10px;
+  padding-top: 5px;
+}
+
+.imgcont {
+  position: relative;
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: #1adfde;
+}
+
+.imgcont:hover .overlay {
+  opacity: 0.5;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
